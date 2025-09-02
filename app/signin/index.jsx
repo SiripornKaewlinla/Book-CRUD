@@ -58,7 +58,7 @@ const Signin = () => {
   return (
     <View style={[styles.screen, { backgroundColor: color.background }]}>
       <View style={[styles.container, { backgroundColor: color.surface }]}>
-        <Text style={[styles.header, { color: color.text }]}>ยินดีต้อนรับกลับ 👋</Text>
+        <Text style={[styles.header, { color: color.text }]}>ยินดีต้อนรับ</Text>
 
         <TextInput
           value={email}
